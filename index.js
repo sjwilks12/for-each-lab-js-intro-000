@@ -2,7 +2,6 @@ function iterativeLog(array) {
   array.forEach((element, index, array) => {
     console.log(`${index}: ${element}`)
   })
-  return array
 }
 
 function iterate(callback) {
@@ -13,5 +12,4 @@ function iterate(callback) {
 
 function doToArray(array, callback) {
   array.forEach(callback)
-  return array
 }
