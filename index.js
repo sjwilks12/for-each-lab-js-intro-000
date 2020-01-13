@@ -1,4 +1,8 @@
-function iterativeLog(array) {
+function helloWorld {
+  console.log("helloWorld")
+}
+
+/*function iterativeLog(array) {
   array.forEach((element, index, array) => {
     console.log(`${index}: ${element}`);
   });
