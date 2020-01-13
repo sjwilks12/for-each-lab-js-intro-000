@@ -14,7 +14,7 @@ describe('index', function() {
     })
   })
 
-  /*describe('iterate(callback)', function() {
+  describe('iterate(callback)', function() {
     it('calls the callback on an internal array, then returns the array', function() {
       const forEach = expect.spyOn(Array.prototype, 'forEach').andCallThrough()
       const callback = expect.createSpy()
@@ -42,5 +42,5 @@ describe('index', function() {
 
       expect(callback.calls.length).toEqual(3)
     })
-  })*/
+  })
 })
